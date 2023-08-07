@@ -37,6 +37,10 @@ export default function Expenses() {
         ))
       }
       </table>
+      {/* Add button to navigate to AddExpense page */}
+      <Link to="/add">
+        <button>Add Expense</button>
+      </Link>
       
     </div>
   )

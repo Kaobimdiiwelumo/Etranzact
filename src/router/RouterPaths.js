@@ -11,7 +11,7 @@ export default function RouterPaths() {
     <Route exact path="/" element={<Expenses />} />
     <Route exact path="/add" element={<AddExpense />} />
     <Route path="/details/:id" element={<ExpenseDetail />} />
-    <Route path="/delete/item" element={<DeleteExpense />} />
+    <Route path="/delete/:item" element={<DeleteExpense />} />
   </Routes>
   )
 }
