@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import axios from "axios";
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import "../App.css";
 
 export default function Expenses() {
     const [expenses, setExpenses] = useState([]);
@@ -18,8 +19,10 @@ export default function Expenses() {
     }, []);
 
   return (
-    <div>
+    <div className="container-wrapper">
+      <div className="container">
       <h2>Expenses</h2>
+      <img src="../image.jpg" alt="Expense Image" className="expense-image" />
       <table>
         <tr>
         <th>ID</th>
@@ -42,6 +45,7 @@ export default function Expenses() {
         <button>Add Expense</button>
       </Link>
       
+    </div>
     </div>
   )
 }
