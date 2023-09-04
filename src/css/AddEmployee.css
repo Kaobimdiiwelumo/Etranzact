@@ -1,0 +1,49 @@
+/* AddEmployee.css */
+  /* Center the form */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  
+  /* Adjust margins and padding */
+  .col-md-6 {
+    margin: 10px auto;
+    padding: 20px;
+  }
+  label{
+    position: absolute;
+    left: var(--x);
+    top: calc(var(--y));
+    border: 1px solid transparent;
+    padding: 0 6px;
+    background-color: white;
+    transition: top 300ms, border-color 300ms, color 300ms;
+  }
+  input{
+    border: 1px solid black;
+    width: 100%;
+    padding: var(--y) var(--x);
+  }
+  /* input:focus ~ label,
+  input:not(:placeholder-shown)~ label{
+    top: calc(var(--y) * -1);
+    font-size: 14px;
+    color: green;
+    border-color: black;
+  } */

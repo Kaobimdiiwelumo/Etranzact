@@ -1,0 +1,44 @@
+/* UserReg.css */
+  /* Center the registration form */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group span {
+    display: block;
+    margin-top: 10px;
+  }
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  
+  /* Adjust margins and padding */
+  .col-md-6 {
+    margin: 10px auto;
+    padding: 20px;
+  }
+
+  input:focus ~ label,
+  input:not(:placeholder-shown)~ label{
+    top: calc(var(--y) * -1);
+    font-size: 14px;
+    color: green;
+    border-color: black;
+  }

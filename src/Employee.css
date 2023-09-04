@@ -1,0 +1,42 @@
+/* Employee.css */
+/* Add some basic styling to the employees table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #a01c1c;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #a7a5a5;
+  }
+  
+  button {
+    margin: 2px;
+  }
+  
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: rgb(233, 18, 18);
+  }
+  
+  .navbar-brand {
+    color: rgb(58, 3, 3);
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: rgb(196, 27, 27);
+  }
+  
+  /* Adjust margins and padding */
+  .col-md-6 {
+    margin: 10px auto;
+    padding: 20px;
+  }
+  

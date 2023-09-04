@@ -1,0 +1,28 @@
+/* UpdateEmployee.css */
+  /* Center the form */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  
+  /* Adjust margins and padding */
+  .col-md-6 {
+    margin: 10px auto;
+    padding: 20px;
+  }
