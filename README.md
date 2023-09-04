@@ -1,1 +1,1 @@
-Project Done while I was at Etranzact. Created an expense App that allows multiple users to create, delete, update and read their expenses. Also allows new users to be made.
+Projects Done while I was at Etranzact. I created an Expense Tracking app. The Codes for this are Backend and Frontend. The next project created was an Employee Management Systenm. This Codes for this are Backend For EmployeeApp and src.
